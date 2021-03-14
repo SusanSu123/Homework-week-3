@@ -51,7 +51,7 @@ To satisfy the sixth criteria, four character arrays are created with uppercase 
 
 To satisfy the seventh criteria, the script modifies the HTML page to display the password after the password has been generated.
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+
 
 
 
