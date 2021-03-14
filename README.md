@@ -4,7 +4,7 @@
 # Overview
 The purpose of the assignment was to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
-# How to install
+## How to install
 Clone the repository
 Git clone https://github.com/SusanSu123/Homework-week-3.git
 
@@ -40,7 +40,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-# Satisfying the Acceptance Criteria
+## Satisfying the Acceptance Criteria
 To satisfy the first criteria, a button was created in HTML and set up so that, when clicked, would fire the password generator script.
 
 To satisfy the second, third, and fourth criteria, a series of prompts are used to determine what kinds of characters the user wants to include as well as how many characters in the password are desired.
