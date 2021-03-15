@@ -61,36 +61,20 @@ if (includeSpecial){
     var selectedCharArray;
     var randomCharNum;
     var randomChar;
-
-    // a random number is generated for the group array (length of group array)
     
-    randomCharArrayNum = parseInt(Math.floor(Math.random()*caseArray.length)); //random number based on length of case array
-    
-    // a random number is generated for the character array (length of character array)
+    randomCharArrayNum = parseInt(Math.floor(Math.random()*caseArray.length)); 
 
-    selectedCharArray = caseArray[randomCharArrayNum]; //variable that stores selected array from case array
-    
-    //console.log("The array has " + caseArray.length + " entries"); //testing length of caseArray
-    //console.log(randomCharArrayNum); //testing random number generated based on length of caseArray
+    selectedCharArray = caseArray[randomCharArrayNum]; 
 
-    randomCharNum = Math.floor(Math.random()*selectedCharArray.length);// variable that stores random number based on length of selected array
-
-    //console.log("The selected Array is the " + selectedCharArray); //testing array chosen
-    //console.log("The selected random index is " + randomCharNum); //testing random number generation based on chosen array length 
+    randomCharNum = Math.floor(Math.random()*selectedCharArray.length);
 
     randomChar = selectedCharArray[randomCharNum];
-    //console.log(randomChar);
-    //console.log("Your random character array num is " + randomCharArrayNum + " and your random character number is " + randomCharNum);
-
-    // now, need to accumulate the string
-    passwordString += randomChar;
-    //return passwordString;
     
+    passwordString += randomChar;  
 }
 
 return passwordString;
- //console.log("Your password is " + passwordString);
-//alert("Your password is " + passwordString);
+
 passwordEntry.textContent = passwordString;    
 
 }
