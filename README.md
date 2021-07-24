@@ -6,7 +6,7 @@ The purpose of the assignment was to modify starter code to create an applicatio
 
 ## How to install
 Clone the repository
-Git clone https://github.com/SusanSu123/Homework-week-3.git
+Git clone https://github.com/SusanSu123/JavaScript-Password-Generator.git
 
 Go to index.html and script.js
 
